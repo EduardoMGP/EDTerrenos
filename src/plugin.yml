@@ -1,0 +1,6 @@
+name: EDTerrenos
+version: 1.0
+author: EduardoMGP
+main: edterrenos.EDTerrenos
+commands:
+    terreno:
