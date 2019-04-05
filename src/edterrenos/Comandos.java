@@ -107,6 +107,13 @@ public class Comandos implements CommandExecutor {
                         );
                         return true;
                     }
+                    
+                    for(String m : plugin.getConfig().getStringList("Config.mapabloqueado")){
+                        if(p.getWorld().getName().equalsIgnoreCase(m)){
+                            p.sendMessage(plugin.getMessage("Mensagens.Terreno.mundobloqueado"));
+                            return true;
+                        }
+                    }
 
                     Funçoes f = new Funçoes();
                     f.comprarTerreno(p, tamanho, args[2]);

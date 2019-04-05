@@ -39,6 +39,7 @@ Mensagens:
         teleportar: 'Voce foi teleportado ate seu terreno %nome%'
         terrenosLista: 'Voce possui %quantidade% terrenos %nl% &6- &7Seus terrenos: %terrenos%'
         naoTemTerrenos: 'Voce nao possui nenhum terreno ainda'
+        mundobloqueado: 'Voce nao pode criar terreno neste mundo'
         info:
             - '&6-----------&8 [&6&lEDTerrenos&8] &6-----------'
             - ''
@@ -119,5 +120,10 @@ Config:
         maximo: 2500
         minimo: 100
     valorPorBloco: 50.0
-    valorPorBlocoExpansao: 50.0 
+    valorPorBlocoExpansao: 50.0
+    mapabloqueado:
+        - 'world'
+        - 'city'
+        - 'loja'
+        - 'WarpMobs'
         
